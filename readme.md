@@ -17,17 +17,19 @@ $ npm -v
 
 ## Getting Started
  
-1. Clone the `creative-boilerplate` repository:
+1. Create a remote repository <new-creative-git-repo> for the new creative, and assign appropriate permissions.
+
+2. Clone the `creative-boilerplate` repository:
 
     `git clone https://github.com/dynamicdo/creative-boilerplate <new-creative>`
     
     Where `<new-creative>` is the desired folder name for the new creative.
     
-2. Go into the new creative folder:
+3. Go into the new creative folder:
     
     `cd <new-creative>`
 
-3. Run `./setup.sh` which will perform the following tasks:
+4. Run `./setup.sh` which will perform the following tasks:
 
     * Updates `package.json` replacing the values of `name` and `description` with those for the new creative.
     * Clears contents of the `readme.md` file.
@@ -41,7 +43,7 @@ $ npm -v
         - `npm install`
 
 
-4. Now execute `npm run dev` and look for clean output and no errors.
+5. Now execute `npm run dev` and look for clean output and no errors.
 This will start a watch process so hit Ctl+C to cancel.
 
 ## Build Overview
